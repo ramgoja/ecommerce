@@ -1,0 +1,29 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "api",
+			"problemMatcher": [],
+			"label": "dev api",
+			"detail": "nodemon index.js"
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "client/cms",
+			"problemMatcher": [],
+			"label": "dev cms",
+			"detail": "npm run dev"
+		},
+		{
+			"type": "npm",
+			"script": "dev",
+			"path": "client/front",
+			"problemMatcher": [],
+			"label": "dev front",
+			"detail": "npm run dev"
+		},
+	]
+}
